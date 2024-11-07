@@ -24,11 +24,23 @@ int main()
         }
         case '/':
         {
+            if(s[2]=='0')
+            {
+                cout<<"Error: Division by zero!"<<endl;
+                system("pause");
+                return 0;
+            }
             cout<<(s[0]-'0')/(s[2]-'0')<<endl;
             break;
         }
         case '%':
         {
+            if(s[2]=='0')
+            {
+                cout<<"Error: Division by zero!"<<endl;
+                system("pause");
+                return 0;
+            }
             cout<<(s[0]-'0')%(s[2]-'0')<<endl;
             break;
         }
