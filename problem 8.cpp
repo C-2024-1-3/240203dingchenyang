@@ -5,6 +5,12 @@ int main()
 {
     double a;
     cin>>a;
+    if(a<0)
+    {
+        cout<<"Error: Negative number input."<<endl;
+        system("pause");
+        return 0;
+    }
     double x1=a;
     while(1)
     {

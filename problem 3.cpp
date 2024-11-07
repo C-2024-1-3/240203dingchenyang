@@ -16,5 +16,6 @@ int main()
 	{
 		cout << "failed" << endl;
 	}
+	system("pause");
 	return 0;
 }

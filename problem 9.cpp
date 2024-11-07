@@ -11,7 +11,6 @@ int main()
         total+=buy;
         day++;
     }
-    cout<<total<<endl;
     double ans=(total*0.8)/(day*1.0);
     cout<<ans<<endl;
     system("pause");
